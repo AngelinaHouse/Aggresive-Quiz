@@ -14,6 +14,9 @@ public class Quiz extends JFrame
 		static int q5;
 		static int q6;
 		static int q7;
+		static int q8;
+		static int q9;
+		static int q10;
 		public static void main(String[] args)
 			{
 				// welcomes (kinda) player
@@ -26,7 +29,8 @@ public class Quiz extends JFrame
 				//quizzzzz
 				//question 1
 				Object[] options = {"Yes", "No", "I don't know"};
-				q1 = JOptionPane.showOptionDialog(frame, "Would you like a fun fact?", "Question 1",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options, options[0]);
+				q1 = JOptionPane.showOptionDialog(frame, "Would you like a fun fact?", "Question 1",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options, options[0]);
 				switch(q1)
 				{
 				case 0:
@@ -42,7 +46,7 @@ public class Quiz extends JFrame
 					{
 					JOptionPane.showMessageDialog(
 							frame, 
-							"Well to bad your getting one, the word 'bankrupt' from the italian term for 'broken bench'."
+							"Well to bad your getting one, the word 'bankrupt' came from the italian term for 'broken bench'."
 							+ "You are now a broken bench for not wanting my exquisite fun facts");
 					break;
 					}
@@ -57,7 +61,8 @@ public class Quiz extends JFrame
 				
 				//question 2
 				Object[] options2 = {"Sure", "No", "You pick"};
-				q2 = JOptionPane.showOptionDialog(frame, "Would you like another fun fact?", "Question 2",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options2, options2[0]);
+				q2 = JOptionPane.showOptionDialog(frame, "Would you like another fun fact?", "Question 2",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options2, options2[0]);
 				switch(q2)
 				{
 				case 0:
@@ -88,7 +93,8 @@ public class Quiz extends JFrame
 				
 				//question 3
 				Object[] options3 = {"Why not", "No", "Im indecisive"};
-				q3 = JOptionPane.showOptionDialog(frame, "Would you like another a fun fact?", "Question 3",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options3, options3[0]);
+				q3 = JOptionPane.showOptionDialog(frame, "Would you like another a fun fact?", "Question 3",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options3, options3[0]);
 				switch(q3)
 				{
 				case 0:
@@ -118,7 +124,8 @@ public class Quiz extends JFrame
 				
 				//question 4
 				Object[] options4 = {"Yes", "No im good", "I want to leave"};
-				q4 = JOptionPane.showOptionDialog(frame, "Would you like another a fun fact?", "You can't leave",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options4, options4[0]);
+				q4 = JOptionPane.showOptionDialog(frame, "Would you like another a fun fact?", "You can't leave",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options4, options4[0]);
 				switch(q4)
 				{
 				case 0:
@@ -148,7 +155,8 @@ public class Quiz extends JFrame
 				
 				//question 5
 				Object[] options5 = {"Si senor", "Nah", "Serisouly i want to leave"};
-				q5 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options5, options5[0]);
+				q5 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options5, options5[0]);
 				switch(q5)
 				{
 				case 0:
@@ -176,7 +184,8 @@ public class Quiz extends JFrame
 				
 				//question 6
 				Object[] options6 = {"Indubitably", "no", "when will this end??"};
-				q6 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options6, options6[0]);
+				q6 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options6, options6[0]);
 				switch(q6)
 				{
 				case 0:
@@ -207,8 +216,9 @@ public class Quiz extends JFrame
 				
 				
 				//question 7
-				Object[] options7 = {"Si senor", "Nah", "Serisouly i was to leave"};
-				q7 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null, options7, options7[0]);
+				Object[] options7 = {"yEs DaDdY", "No", "Serisouly i was to leave"};
+				q7 = JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options7, options7[0]);
 				switch(q7)
 				{
 				case 0:
@@ -234,6 +244,95 @@ public class Quiz extends JFrame
 					}
 				}
 				
+				
+				//question 8
+				Object[] options8 = {"Yes", "No", "Can I leave now"};
+				q8 = JOptionPane.showOptionDialog(frame, "Another fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options8, options8[0]);
+				switch(q8)
+				{
+				case 0:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"Denmark and Finland are deemed the happiest countries in the world.");
+					break;
+					}
+				case 1:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"......ok then");
+					break;
+					}
+				case 2:
+					{
+					JOptionPane.showMessageDialog(
+						frame, 
+							"i said no");
+					break;
+					}
+				}
+				
+				//question 9
+				Object[] options9 = {"Yea", "No", "Leave"};
+				q9= JOptionPane.showOptionDialog(frame, "Fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options9, options9[0]);
+				switch(q9)
+				{
+				case 0:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"There is a vending machine in Singapore called Hug Me, which gives \n "
+							+ "you free can of coke each time you hug it.");
+					break;
+					}
+				case 1:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"wow um ok");
+					break;
+					}
+				case 2:
+					{
+					JOptionPane.showMessageDialog(
+						frame, 
+							"Nice try your still stuck here");
+					break;
+					}
+				}
+				
+				//question 10
+				Object[] options10 = {"Nah", "No", "Ehh no"};
+				q10= JOptionPane.showOptionDialog(frame, "Would you like a final fun fact?", "Your stuck here forever",JOptionPane.YES_NO_CANCEL_OPTION,
+						JOptionPane.QUESTION_MESSAGE,null, options10, options10[0]);
+				switch(q10)
+				{
+				case 0:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"Alright ill see ya");
+					break;
+					}
+				case 1:
+					{
+					JOptionPane.showMessageDialog(
+							frame, 
+							"ok bye");
+					break;
+					}
+				case 2:
+					{
+					JOptionPane.showMessageDialog(
+						frame, 
+							"ok bye");
+					break;
+					}
+				}
+
 			}
 		
 
